@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user_service" />
+        <module name="db_service_postgresql" />
+        <module name="api_gatway" />
+        <module name="MicroservicePrivacyFirst" />
+        <module name="product_service" />
+        <module name="db_service_mongo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api_gatway" options="-parameters" />
+      <module name="common_dtos" options="-parameters" />
+      <module name="db_service_mongo" options="-parameters" />
+      <module name="db_service_postgresql" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="product_service" options="-parameters" />
+      <module name="user_service" options="-parameters" />
+    </option>
+  </component>
+</project>

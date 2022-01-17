@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MicroservicePrivacyFirst.iml" filepath="$PROJECT_DIR$/MicroservicePrivacyFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api_gatway/api_gatway.iml" filepath="$PROJECT_DIR$/api_gatway/api_gatway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_dtos/common_dtos.iml" filepath="$PROJECT_DIR$/common_dtos/common_dtos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db_service_mongo/db_service_mongo.iml" filepath="$PROJECT_DIR$/db_service_mongo/db_service_mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db_service_postgresql/db_service_postgresql.iml" filepath="$PROJECT_DIR$/db_service_postgresql/db_service_postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product_service/product_service.iml" filepath="$PROJECT_DIR$/product_service/product_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_service/user_service.iml" filepath="$PROJECT_DIR$/user_service/user_service.iml" />
+    </modules>
+  </component>
+</project>

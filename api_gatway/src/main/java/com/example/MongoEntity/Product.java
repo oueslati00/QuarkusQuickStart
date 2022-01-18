@@ -17,8 +17,8 @@ public class Product extends PanacheMongoEntity {
 
     public Double price;
 
-    public static Page findByName(String name){
-        return find("name",name).page();
+    public static List<Product>  findByName(String name){
+        return find("name",name).list();
     }
 
     public static List<Product> FindAlive(){

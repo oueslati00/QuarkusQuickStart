@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f89e8fe-ee55-4566-a182-1c58bfa12f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_gatway/src/main/java/com/example/MongoEntity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gatway/src/test/java/com/exemple/NativeProductResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_gatway/src/test/java/com/exemple/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gatway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gatway/src/main/java/com/example/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/src/main/java/com/example/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gatway/src/main/java/test/java/com/exemple/ProductResource.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gatway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_dtos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_dtos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_dtos/src/main/java/com/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common_dtos/src/main/java/com/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_service/src/main/java/com/example/QuoteProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/src/main/java/com/example/QuoteProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +47,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="GraavLM" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../quarkusio/quarkus-quickstarts/mongodb-panache-quickstart" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -69,7 +66,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Quarkus.common_dtos">
+  <component name="RunManager" selected="Docker.docker-compose.yaml.api-gatway: Compose Deployment">
     <configuration name="api_gatway" type="QuarkusRunConfigurationType" factoryName="Quarkus">
       <module name="api_gatway" />
       <QsMavenRunConfiguration>
@@ -221,13 +218,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose-app.yaml.api-gatway: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="api-gatway" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose-app.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.api-gatway: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="api-gatway" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.database: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="database" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose-app.yaml.api-gatway: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yaml.database: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yaml.api-gatway: Compose Deployment" />
       <item itemvalue="Quarkus.api_gatway" />
       <item itemvalue="Quarkus.common_dtos" />
       <item itemvalue="Quarkus.db_service_postgresql" />
       <item itemvalue="Quarkus.product_service" />
       <item itemvalue="Quarkus.user_service" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml.api-gatway: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.database: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose-app.yaml.api-gatway: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -244,6 +291,18 @@
       <workItem from="1642252157621" duration="2613000" />
       <workItem from="1642424796593" duration="6583000" />
       <workItem from="1642457493404" duration="252000" />
+      <workItem from="1642459466538" duration="717000" />
+      <workItem from="1642500646487" duration="10958000" />
+      <workItem from="1642543029045" duration="3201000" />
+      <workItem from="1642602493898" duration="2477000" />
+      <workItem from="1642607570968" duration="4023000" />
+      <workItem from="1642627598276" duration="1875000" />
+      <workItem from="1642681773082" duration="665000" />
+      <workItem from="1642693484983" duration="1846000" />
+      <workItem from="1642778125594" duration="6211000" />
+      <workItem from="1642946267184" duration="4248000" />
+      <workItem from="1643065392389" duration="197000" />
+      <workItem from="1643113776310" duration="762000" />
     </task>
     <servers />
   </component>

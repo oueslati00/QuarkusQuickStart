@@ -57,4 +57,9 @@ public class ProductController {
         Product.deleteAll();
         return Response.status(201,"all the product was deleted").build();
     }
+    @GET
+    @Path("test")
+    public String testMethod(){
+        return "test_path";
+    }
 }

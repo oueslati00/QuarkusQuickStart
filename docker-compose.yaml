@@ -1,0 +1,29 @@
+version: "3"
+services:
+  api-gatway:
+    image: "quarkus/api_gatway-jvm" 
+    mem_limit: 128m
+    container_name: "api-gatway"
+    hostname: apigateway
+    ports:
+      - "8088:8081"
+    depends_on:
+      - database
+    networks:
+      - test
+    environment:
+      - QUARKUS_DATASOURCE_URL=mongodb://database:27017/
+  database:
+    image: 'mongo'
+    container_name: 'mongo-for-api'
+    hostname: mongo
+    ports:
+      - '27017-27019:27017-27019'
+    networks:
+      - test
+
+networks:
+  test:
+    external:
+      name: nat
+

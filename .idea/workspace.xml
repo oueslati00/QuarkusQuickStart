@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f89e8fe-ee55-4566-a182-1c58bfa12f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_gatway/src/test/java/com/exemple/NativeProductResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_gatway/src/test/java/com/exemple/ProductResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gatway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gatway/src/main/java/com/example/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/src/main/java/com/example/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gatway/src/main/java/test/java/com/exemple/ProductResource.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api_gatway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api_gatway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,6 +299,7 @@
       <workItem from="1642946267184" duration="4248000" />
       <workItem from="1643065392389" duration="197000" />
       <workItem from="1643113776310" duration="762000" />
+      <workItem from="1643131034768" duration="1433000" />
     </task>
     <servers />
   </component>
